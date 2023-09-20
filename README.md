@@ -23,6 +23,7 @@ This project contains configuration files for connecting to Google via PHP. It i
     ```bash
     cd google-connexion-php
     composer install
+    composer require google/apiclient "^2.0"
     ```
 
 3. Add your Google API keys in `config.php`:
@@ -32,12 +33,4 @@ This project contains configuration files for connecting to Google via PHP. It i
     GOOGLE_CLIENT_SECRET=YourClientSecret
     ```
 
-## Usage
 
-To use this project, import the `GoogleAuth.php` file into your code and use the `GoogleAuth` class to handle authentication.
-
-```php
-require_once 'GoogleAuth.php';
-
-$googleAuth = new GoogleAuth();
-$googleAuth->authenticate();
