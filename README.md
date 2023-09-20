@@ -1,40 +1,40 @@
-# Google Connexion PHP
+# Google Connection PHP
 
 ## Description
 
-Ce projet contient des fichiers de configuration pour la connexion à Google via PHP. Il est conçu pour faciliter l'intégration de l'authentification Google dans vos applications PHP.
+This project contains configuration files for connecting to Google via PHP. It is designed to facilitate the integration of Google authentication into your PHP applications.
 
-## Prérequis
+## Prerequisites
 
-- PHP 7.x ou supérieur
+- PHP 7.x or higher
 - Composer
-- Un compte Google Developer pour obtenir les clés API
+- A Google Developer account to obtain API keys
 
 ## Installation
 
-1. Clonez ce dépôt dans votre espace de travail local :
+1. Clone this repository into your local workspace:
 
     ```bash
     git clone https://github.com/Gael-Pitras/google-connexion-php.git
     ```
 
-2. Installez les dépendances via Composer :
+2. Install dependencies via Composer:
 
     ```bash
     cd google-connexion-php
     composer install
     ```
 
-3. Renommez le fichier `.env.example` en `.env` et ajoutez vos clés API Google :
+3. Rename the `.env.example` file to `.env` and add your Google API keys:
 
     ```env
-    GOOGLE_CLIENT_ID=VotreClientID
-    GOOGLE_CLIENT_SECRET=VotreClientSecret
+    GOOGLE_CLIENT_ID=YourClientID
+    GOOGLE_CLIENT_SECRET=YourClientSecret
     ```
 
-## Utilisation
+## Usage
 
-Pour utiliser ce projet, importez le fichier `GoogleAuth.php` dans votre code et utilisez la classe `GoogleAuth` pour gérer la connexion.
+To use this project, import the `GoogleAuth.php` file into your code and use the `GoogleAuth` class to handle authentication.
 
 ```php
 require_once 'GoogleAuth.php';
