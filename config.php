@@ -2,8 +2,8 @@
 require_once 'vendor/autoload.php';
 
 // Remplacez par vos propres identifiants d'application Google
-$google_app_id = '83781273492-ov1em5ma4lpom9o2ek70atcb9eonuh29.apps.googleusercontent.com';
-$google_app_secret = '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';
+$google_app_id = 'YOUR_CLIENT_ID';
+$google_app_secret = 'YOUR_SECRET_CODE';
 
 // L'URL de rappel doit être configurée pour votre environnement local
 $google_callbackurl = 'http://localhost/';
