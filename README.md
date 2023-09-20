@@ -1,7 +1,9 @@
 # Google Connection PHP
 
 
-![Logo du projet](./preview.PNG)
+<div align="center">
+  <img src="./preview.PNG" alt="Logo du projet">
+</div>
 
 ## Description
 
