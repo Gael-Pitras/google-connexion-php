@@ -1,5 +1,8 @@
 # Google Connection PHP
 
+
+![Logo du projet](./preview.PNG)
+
 ## Description
 
 This project contains configuration files for connecting to Google via PHP. It is designed to facilitate the integration of Google authentication into your PHP applications.
