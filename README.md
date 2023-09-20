@@ -34,8 +34,8 @@ This project contains configuration files for connecting to Google via PHP. It i
 3. Add your Google API keys in `config.php`:
 
     ```env
-    GOOGLE_CLIENT_ID=YourClientID
-    GOOGLE_CLIENT_SECRET=YourClientSecret
+    $google_app_id = 'YOUR_CLIENT_ID';
+    $google_app_secret = 'YOUR_SECRET_CODE';
     ```
 
 
