@@ -25,7 +25,7 @@ This project contains configuration files for connecting to Google via PHP. It i
     composer install
     ```
 
-3. Rename the `.env.example` file to `.env` and add your Google API keys:
+3. Add your Google API keys in `config.php`:
 
     ```env
     GOOGLE_CLIENT_ID=YourClientID
